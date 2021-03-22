@@ -4,8 +4,6 @@ import java.lang.reflect.Array;
 
 public class StringUtil
 {
-    int v;
-
     // Retorna una cadena compuesta por n caracteres c
     // Ejemplo: replicate('x',5) ==> 'xxxxx'
     public static String replicate(char c, int n)

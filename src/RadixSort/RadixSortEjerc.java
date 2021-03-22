@@ -14,9 +14,7 @@ public class RadixSortEjerc {
         int[] finalArray = toIntArray(sArray);
 
         toOtherIntArray(arr, finalArray);
-
     }
-
 
     public static  String[] recorrerElementos(String[] arr){
         /*Recorre las el arreglo tantas veces como caracteres del string del arreglo.
@@ -30,7 +28,6 @@ public class RadixSortEjerc {
 
                 ArrayList<String> itemsList = (ArrayList<String>) listas.get(key);
                 itemsList.add(arrayElement);
-                //ToDo: Remove
             }
             arr = getNewArray(listas);
         }
@@ -47,6 +44,7 @@ public class RadixSortEjerc {
         }
         return result.toArray(new String[0]);
     }
+
     public static HashMap getListas(int cantidad){
         /*Crea en un hasMap tantas listas como reciba por parametro*/
         HashMap map = new HashMap();
@@ -56,8 +54,6 @@ public class RadixSortEjerc {
         }
         return map;
     }
-
-
 
     public static void main(String[] args) {
         int arr[]={16223,898,13,906,235,23,9,1532,6388,2511,8};
